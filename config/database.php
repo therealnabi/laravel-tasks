@@ -46,7 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('AZURE_MYSQL_HOST', '127.0.0.1'),
+            'host' => env('msdocs-laravel-mysql-234.mysql.database.azure.com', '127.0.0.1'),
             'port' => env('AZURE_MYSQL_PORT', '3306'),
             'database' => env('msdocs-laravel-mysql-234-database', 'forge'),
             'username' => env('myuulivvpn', 'forge'),
